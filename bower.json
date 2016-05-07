@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "description": "Resume for Patrick Ortiz",
+  "main": "",
+  "authors": [
+    "Patrick Ortiz"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "new/assets/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

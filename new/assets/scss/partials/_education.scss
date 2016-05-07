@@ -1,0 +1,37 @@
+#education {
+    .education {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+
+        .title {
+            font-weight: bold;
+        }
+
+        .title,
+        .type,
+        .graduationYear,
+        .gpa,
+        .schoolName,
+        .schoolLocation {
+            display: inline-block;
+
+            &::after {
+                content: ", ";
+            }
+        }
+
+        .schoolLocation {
+            &::after {
+                content: "";
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #awards {
+        float: none;
+        margin-left: 66.6666666%;
+    }
+}

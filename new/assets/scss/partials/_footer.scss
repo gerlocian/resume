@@ -1,0 +1,37 @@
+footer#mainFooter {
+    border-color: #101010;
+    background-color: #3c3c3c;
+    margin: 0;
+    text-align: center;
+
+    ul {
+        margin: 10px 0px;
+
+        li {
+            display: inline-block;
+            color: #fff;
+
+            &::after {
+                content: " |";
+            }
+
+            &:last-child {
+                &::after {
+                    content: "";
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer#mainFooter {
+        display: none;
+    }
+}
+
+@media print {
+    footer#mainFooter {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+#experience {
+    .job {
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+        .title {
+            font-weight: bold;
+        }
+
+        .title, .company, .location, .time {
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+.idea
+.sass-cache
+new/assets/lib
+new/assets/css
+node_modules

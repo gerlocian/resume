@@ -1,0 +1,23 @@
+#technical {
+
+}
+
+@media (min-width: 480px) {
+    #technical {
+        ul {
+            li {
+                display: inline;
+
+                &::after {
+                    content: ", "
+                }
+
+                &:last-child {
+                    &::after {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+}

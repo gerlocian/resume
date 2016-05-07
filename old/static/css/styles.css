@@ -1,0 +1,273 @@
+body {
+    width: 93.75%;
+    margin: 10px auto;
+    font-family: Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+    color: #000;
+    font-size: 100%;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066bb;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    padding: 10px 0;
+    display: inline-block;
+    background: #336699;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 16%;
+}
+
+.screenreader {
+    position: absolute;
+    top: auto;
+    left: -100000px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.largest-text {
+    font-size: 2.5em;
+    color: #369;
+}
+
+.larger-text {
+    font-size: 1.75em;
+}
+
+.big-text {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.section-subheader {
+    font-size: 1.125em;
+    font-style: italic;
+}
+
+section .content {
+    margin: 0 3.125%; /* 30px / 960px */
+}
+
+section .big-text {
+    margin: 0 2.08333333333% 5px 2.08333333333%; /* 20px / 960px */
+    text-decoration: underline;
+}
+
+.back-to-top {
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+}
+
+section#resume {
+    overflow: hidden;
+}
+
+#author,
+#tagline
+{
+    text-align: center;
+}
+
+#tagline {
+    color: #666;
+}
+
+#contact {
+    text-align: center;
+    color: #999;
+}
+
+#contact li {
+    display: inline-block;
+}
+
+#contact li:after {
+    content: " |";
+}
+
+#contact li:last-child:after {
+    content: "";
+}
+
+#profile,
+#technical,
+#experience,
+#awards,
+#education,
+#references
+{
+    /*background: #339933;*/
+    border: 2px solid #336699;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#technical ul,
+#experience ul,
+#education ul,
+#awards .description ul {
+    padding: 0 3.125% 10px 3.125%;
+}
+
+#technical ul li {
+    display: inline;
+}
+
+#technical ul li:after {
+    content: ", ";
+}
+
+#technical ul li:last-child:after {
+    content: "";
+}
+
+#experience div,
+#education div {
+    display: inline-block;
+}
+
+#experience ul li,
+#education ul li
+{
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 1.04666666667%;
+}
+
+#experience .big-text {
+    margin-bottom: 0;
+}
+
+#experience .job {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#experience .title,
+#education .title
+{
+    font-weight: bold;
+}
+
+#education .schoolName:after {
+    content: " -";
+}
+
+#education .description {
+    display: block;
+}
+
+#awards .award {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 3.125%;
+    margin-right: 3.125%;
+}
+
+#awards .award div {
+    display: inline-block;
+}
+
+#awards .title {
+    font-weight: bold;
+}
+
+#awards .title:after {
+    content: " -";
+}
+
+#awards .description ul li {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 3.125%;
+}
+
+@media screen and (max-width: 600px) {
+    .larger-text {
+        font-size: 1.45em;
+    }
+    
+    nav {
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    
+    nav a {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    nav a.profile,
+    nav a.experience,
+    nav a.education
+    {
+        width: 49%;
+        float: left;
+    }
+    
+    nav a.technical,
+    nav a.awards,
+    nav a.references
+    {
+        width: auto;
+        margin-left: 51%;
+    }
+    
+    #contact li:last-child {
+        display: block;
+    }
+    
+    #contact li.mobile:after {
+        content: "";
+    }
+    
+    #technical ul li,
+    #education ul li,
+    #experience ul li {
+        display: list-item;
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+    
+    #technical ul li:after {
+        content: "";
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section {
+        display: block;
+        vertical-align: top;
+    }
+    
+    #profile,
+    #technical,
+    #experience,
+    #education {
+        width: 60%;
+        float: left;
+    }
+    
+    #awards,
+    #references {
+        margin-left: 61%;
+    }
+    
+    section .content {
+        margin: 0 5%;
+    }
+}

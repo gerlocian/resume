@@ -1,0 +1,22 @@
+#awards {
+    .award {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+
+        .title {
+            font-weight: bold;
+        }
+
+        .title, .received {
+            display: inline-block;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #awards {
+        float: none;
+        margin-left: 66.6666666%;
+    }
+}
