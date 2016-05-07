@@ -1,3 +1,7 @@
+body {
+    font-family: Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
 section {
     h3 {
         font-weight: bold;
@@ -12,5 +16,11 @@ section {
     .border {
         border: 2px solid #666666;
         border-radius: 10px;
+    }
+}
+
+@media print {
+    body {
+        font-size: 16px;
     }
 }
