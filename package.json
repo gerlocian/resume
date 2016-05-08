@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Resume for Patrick Ortiz",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./node_modules/karma/bin/karma start",
     "start": "node new/server.js",
     "reload": "node new/reload.js",
     "sass": "sass --watch new/assets/scss:new/assets/css"
@@ -12,6 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "express": "^4.13.4",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
     "livereload": "^0.4.1",
     "node-sass": "^3.7.0"
   }
