@@ -6,6 +6,7 @@
 
     server.watch([
         __dirname + '/index.html',
+        __dirname + '/data.json',
         __dirname + '/assets/css/**/*.css',
         __dirname + '/assets/js/**/*.js'
     ]);
