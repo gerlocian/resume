@@ -10,6 +10,14 @@
             }
         ])
 
+        .directive('backToTop', function () {
+            return {
+                restrict: 'E',
+                replace: true,
+                template: '<a href="#top" class="back-to-top">Back to top</a>'
+            }
+        })
+
         .controller('ResumeController', [
             '$scope',
             'ResumeData',
