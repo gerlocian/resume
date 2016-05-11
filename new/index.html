@@ -66,9 +66,13 @@
 
         <section id="technical" class="col-xs-12 col-sm-8">
             <div class="border">
+                <div class="filter hidden-xs">
+                    <label for="technicalFilter">Filter</label>
+                    <input type="text" ng-model="technicalFilter" id="technicalFilter">
+                </div>
                 <h3>Technical Proficiencies</h3>
                 <div class="content">
-                    <div class="skill" ng-repeat="skill in data.technical">
+                    <div class="skill" ng-repeat="skill in data.technical | filter:technicalFilter">
                         <h5 class="section-subheader">{{ skill.title }}</h5>
                         <ul>
                             <li ng-repeat="entry in skill.entries">{{ entry }}</li>
@@ -81,9 +85,13 @@
 
         <section id="experience" class="col-xs-12 col-sm-8">
             <div class="border">
+                <div class="filter hidden-xs">
+                    <label for="experienceFilter">Filter</label>
+                    <input type="text" ng-model="experienceFilter" id="experienceFilter">
+                </div>
                 <h3>Professional Experience</h3>
                 <div class="content">
-                    <div class="job" ng-repeat="job in data.experience">
+                    <div class="job" ng-repeat="job in data.experience | filter:experienceFilter">
                         <div class="title">{{ job.title }}</div>
                         <div class="company">{{ job.company }}</div>
                         <div class="location">{{ job.location }}</div>
@@ -145,9 +153,11 @@
     </footer>
 
     <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-highlight/jquery.highlight.js"></script>
     <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/lib/angular/angular.min.js"></script>
     <script src="/lib/angular-resource/angular-resource.min.js"></script>
     <script src="/js/resumeapp/app.js"></script>
+    <script src="/js/jquery/highlight.js"></script>
 </body>
 </html>
