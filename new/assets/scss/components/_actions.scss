@@ -1,0 +1,35 @@
+#actions {
+    position: relative;
+
+    #action-button {
+        position: absolute;
+        top: -30px;
+        right: 0px;
+        z-index: 1000;
+    }
+
+    #sections {
+        position: absolute;
+        top: 30px;
+        right: 0px;
+        z-index: 1000;
+        //display: none;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        transition: .3s;
+        transform: scale(0.001);
+        transform-origin: 100% 0%;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        -moz-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+        &.open {
+            //display: block;
+            transform: scale(1);
+        }
+
+        .collection {
+            //display: none;
+        }
+    }
+}

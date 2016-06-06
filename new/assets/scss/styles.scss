@@ -1,13 +1,38 @@
-@import 'partials/layout';
-@import 'partials/brand';
-@import 'partials/highlight';
+@import "../lib/Materialize/sass/components/mixins";
+@import "../lib/Materialize/sass/components/color";
 
-@import 'partials/contact';
-@import 'partials/profile';
-@import 'partials/technical';
-@import 'partials/experience';
-@import 'partials/education';
-@import 'partials/references';
+@import "../lib/Materialize/sass/components/variables";
+@import "components/colors";
 
-@import 'partials/footer';
-@import 'partials/print';
+@import "../lib/Materialize/sass/components/normalize";
+
+// components
+@import "../lib/Materialize/sass/components/global";
+@import "../lib/Materialize/sass/components/icons-material-design";
+@import "../lib/Materialize/sass/components/grid";
+@import "../lib/Materialize/sass/components/navbar";
+@import "../lib/Materialize/sass/components/roboto";
+@import "../lib/Materialize/sass/components/typography";
+@import "../lib/Materialize/sass/components/cards";
+@import "../lib/Materialize/sass/components/toast";
+@import "../lib/Materialize/sass/components/tabs";
+@import "../lib/Materialize/sass/components/tooltip";
+@import "../lib/Materialize/sass/components/buttons";
+@import "../lib/Materialize/sass/components/dropdown";
+@import "../lib/Materialize/sass/components/waves";
+@import "../lib/Materialize/sass/components/modal";
+@import "../lib/Materialize/sass/components/collapsible";
+@import "../lib/Materialize/sass/components/chips";
+@import "../lib/Materialize/sass/components/materialbox";
+@import "../lib/Materialize/sass/components/forms/forms";
+@import "../lib/Materialize/sass/components/table_of_contents";
+@import "../lib/Materialize/sass/components/sideNav";
+@import "../lib/Materialize/sass/components/preloader";
+@import "../lib/Materialize/sass/components/slider";
+@import "../lib/Materialize/sass/components/carousel";
+@import "../lib/Materialize/sass/components/date_picker/default";
+@import "../lib/Materialize/sass/components/date_picker/default.date";
+@import "../lib/Materialize/sass/components/date_picker/default.time";
+
+@import "components/actions";
+
