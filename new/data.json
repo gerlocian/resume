@@ -10,7 +10,7 @@
   "technical": [
     {
       "title": "Languages",
-      "entries": ["HTML", "CSS", "Javascript", "PHP", "Python", "SQL", "XML", "JSON"]
+      "entries": ["HTML", "CSS", "Javascript (including ES6)", "PHP", "Python", "SQL", "XML", "JSON"]
     },
     {
       "title": "IDE's / Editors",
@@ -25,12 +25,16 @@
       "entries": ["MySql", "Postgres", "Mongo", "Oracle"]
     },
     {
+      "title": "Frameworks",
+      "entries": ["jQuery", "AngularJS", "Bootstrap", "Node", "NPM", "Bower", "Yeoman", "Gulp"]
+    },
+    {
       "title": "Standards",
       "entries": ["W3C Web Standards", "Section 508", "WCAG 1.0 and 2.0", "HIPAA"]
     },
     {
       "title": "Practices",
-      "entries": ["Semantic Web Markup", "Responsive Web", "Refactoring"]
+      "entries": ["Semantic Web Markup", "Responsive Web", "Refactoring", "Material Design"]
     },
     {
       "title": "Other",
@@ -125,5 +129,8 @@
   ],
   "references": {
     "url": "http://www.linkedin.com/pub/patrick-ortiz/4/3b9/9ab"
+  },
+  "portfolio": {
+    "url": "https://www.github.com/gerlocian/"
   }
 }
