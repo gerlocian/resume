@@ -79,15 +79,6 @@
       ]
     },
     {
-      "title": "Support Staff",
-      "company": "Drug Safety Alliance",
-      "location": "Durham, NC",
-      "years": ["2005"],
-      "responsibilities": [
-        "Provide support with company documents by creating digital representations of paperwork."
-      ]
-    },
-    {
       "title": "IT Specialist / Web Development",
       "company": "PhysioMetrics Inc.",
       "location": "Mount Laurel, NJ",
@@ -98,17 +89,6 @@
         "Supported and maintained the company in-house software.",
         "Provided phone and technical support for field personnel.",
         "Designed and implemented logistical plans to provide field personnel with supplies and equipment."
-      ]
-    },
-    {
-      "title": "Pharmacy Technician",
-      "company": "Power's Pharmacy",
-      "location": "Browns Mills, NJ",
-      "years": ["1999", "2000", "2001", "2002"],
-      "responsibilities": [
-        "Performed the full range of financial and inventory transactions.",
-        "Accurately filled customer prescriptions ensuring quality.",
-        "Displayed initiative by serving in management role on a part-time basis."
       ]
     }
   ],
