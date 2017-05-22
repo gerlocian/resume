@@ -43,10 +43,19 @@
   ],
   "experience": [
     {
+      "title": "Senior UI Engineer",
+      "company": "Top Quadrant",
+      "location": "Raleigh, NC",
+      "years": ["2017"],
+      "responsibilities": [
+        "Worked with fellow UI developers to design and build improvements into the TopBraid Data Governance application."
+      ]
+    },
+    {
       "title": "Software Development Engineer 3, Scrum Master, Team Lead",
       "company": "Lulu Press",
       "location": "Raleigh, NC",
-      "years": ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016"],
+      "years": ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"],
       "responsibilities": [
         "Served as Scrum Master, ensuring that project processes were observed and ensured that Scrum Teams were giving all opportunities to succeed.",
         "Acted as team lead, specifically with regards to User Interface development and design. This meant ensuring that standards in coding practices were observed and integrated.",
