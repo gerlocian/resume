@@ -14,7 +14,7 @@
     },
     {
       "title": "IDE's / Editors",
-      "entries": ["TextMate", "Netbeans", "Vim", "Notepad ++", "Eclipse", "IntelliJ (Webstorm)"]
+      "entries": ["TextMate", "Netbeans", "Vim", "Notepad ++", "Eclipse", "IntelliJ (Webstorm)", "Sublime Text"]
     },
     {
       "title": "Servers",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Practices",
-      "entries": ["Semantic Web Markup", "Responsive Web", "Refactoring", "Material Design"]
+      "entries": ["Semantic Web Markup", "Responsive Web", "Refactoring", "Material Design", "Architecture Design"]
     },
     {
       "title": "Other",
