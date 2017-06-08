@@ -26,7 +26,7 @@
     },
     {
       "title": "Frameworks",
-      "entries": ["jQuery", "AngularJS", "Bootstrap", "Node", "NPM", "Bower", "Yeoman", "Gulp"]
+      "entries": ["jQuery", "AngularJS", "React", "Flux", "Bootstrap", "Node", "NPM", "Bower", "Yeoman", "Gulp"]
     },
     {
       "title": "Standards",
