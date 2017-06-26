@@ -48,7 +48,7 @@
       "location": "Raleigh, NC",
       "years": ["2017"],
       "responsibilities": [
-        "Used SWP and SPARQL, along with HTML, CSS, and Javascript to build out the TopBraid Data Governance application.",
+        "Used SWP and SPARQL, along with HTML, CSS, Javascript, and jQuery to build out the TopBraid Data Governance application.",
         "Mentored and trained other UI engineers on React, Flux, Webpack, and Node."
       ]
     },
