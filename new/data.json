@@ -48,7 +48,8 @@
       "location": "Raleigh, NC",
       "years": ["2017"],
       "responsibilities": [
-        "Worked with fellow UI developers to design and build improvements into the TopBraid Data Governance application."
+        "Used SWP and SPARQL, along with HTML, CSS, and Javascript to build out the TopBraid Data Governance application.",
+        "Mentored and trained other UI engineers on React, Flux, Webpack, and Node."
       ]
     },
     {
@@ -59,9 +60,9 @@
       "responsibilities": [
         "Served as Scrum Master, ensuring that project processes were observed and ensured that Scrum Teams were giving all opportunities to succeed.",
         "Acted as team lead, specifically with regards to User Interface development and design. This meant ensuring that standards in coding practices were observed and integrated.",
-        "Served as Technical Release Manager in charge of ensuring code is packaged and recorded prior to release into test and production environments.",
-        "Built and maintained the UI for the Lulu eCommerce system which included the Shopping Cart and entire Checkout flow.",
-        "Developed and maintained a content management system for use by the Marketing teams using the Joomla! CMS and PHP. This included the addition of content migration features, templating, language selection and traffic routing built with the Joomla! API. In addition, built and maintained a SilverStripe CMS instance as well for LuluJr.",
+        "Served as Technical Release Manager in charge of ensuring code is packaged and recorded prior to release with BASH, Puppet, Salt, and finally docker. This included Test and Production environments.",
+        "Built and maintained the UI for the Lulu eCommerce system which included the Shopping Cart and entire Checkout flow using Velocity templates, Django templates, and AngularJS.",
+        "Developed and maintained a content management system for use by the Marketing teams using the Joomla! CMS and PHP. This included the addition of content migration features, templating, language selection and traffic routing built with the Joomla! API. In addition, built and maintained a SilverStripe CMS instance as well for LuluJr utilizing PostgresQL and PHP.",
         "Created HTML, OmniGraffle, and Photoshop mockups for user interfaces."
       ]
     },
@@ -95,7 +96,7 @@
       "responsibilities": [
         "Developed module based code for the company web site using PHP, MySQL, CSS, HTML, and JavaScript.",
         "Supported and maintained a basic Apache Web Server configuration for the company intra-net.",
-        "Supported and maintained the company in-house software.",
+        "Supported and maintained the company in-house software built on Visual Basic 6.0.",
         "Provided phone and technical support for field personnel.",
         "Designed and implemented logistical plans to provide field personnel with supplies and equipment."
       ]
