@@ -44,6 +44,17 @@
   "experience": [
     {
       "title": "Senior UI Engineer",
+      "company": "SignalPath",
+      "location": "Raleigh, NC",
+      "years": ["2017"],
+      "responsibilities": [
+        "Built and maintained the Clinical Trial Management Software using HTML, SCSS, Javascript, Angular 1.x, Angular 4, Karma, and PhantomJS.",
+        "Built and maintained the PDF Service using Node, Javascript, Express, Karma, and PhantomJS.",
+        "Contributed to architecture and deployment planning sessions for the above technologies."
+      ]
+    },
+    {
+      "title": "Senior UI Engineer",
       "company": "Top Quadrant",
       "location": "Raleigh, NC",
       "years": ["2017"],
